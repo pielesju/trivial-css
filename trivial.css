@@ -1,0 +1,91 @@
+:root {
+    --background-color: #F1F1F1;
+    --content-background-color: #FFFFFF;
+    --border-color: #666;
+    --foreground-color: #000000;
+    --accent-color: #99EDC3;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: var(--foreground-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+body {
+    background-color: var(--background-color);
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem;
+}
+
+header {
+    height: 100px;
+}
+
+main {
+    min-height: calc(100svh - 200px);
+}
+
+footer {
+    height: 100px;
+    border-top: 1px solid var(--border-color);
+}
+
+button {
+    background-color: var(--accent-color);
+    padding: 0.5rem;
+    border-style: none;
+    border: 1px solid var(--border-color);
+}
+
+input {
+    padding: 0.5rem;
+    border-style: none;
+    border: 1px solid var(--border-color);
+}
+
+input:focus {
+    border-style: none;
+}
+
+th {
+    border-bottom: 1px solid var(--border-color);
+}
+
+p {
+    max-width: 720px;
+    margin: auto;
+}
+
+section {
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    background-color: var(--content-background-color);
+}
